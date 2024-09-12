@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(161, 158, 158);
+}
+
+#carouselExampleIdincators {
+    border-bottom: 2px black solid;
+}
+
+header div.navbar-collapse ul.ml-auto span.badge {
+    border-radius: 20px;
+}
+
+.categorias ul.list-group li.list-group-item:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.categorias ul.list-group-item li.list-group-item:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.productos a:hover{
+    text-decoration: none!important;
+}
+
+.productos .card {
+    transition: all .3s ease;
+}
+
+.productos .card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    transition: all 0.5s ease;
+}
+
+
+.productos .card .img {
+    border-bottom: .5px black solid;
+}
+
+.productos .card .card-title{
+    color: black;
+}
+
+.productos .card .price_off {
+    font-size: 12px;
+    color: green;
+}
+
+.productos .card .card-text{
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
